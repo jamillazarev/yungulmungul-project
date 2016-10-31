@@ -1,0 +1,17 @@
+block vars
+    - var pageName = "Undefined pageName"
+
+doctype
+html
+    head
+        meta(charset="utf-8")
+        meta(name="robots" content="index follow")
+        meta(name="revisit-after" content="1 month")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        title #{pageName} | #{projectName} | #{packageName}
+
+        block headBottom
+    body
+        block bodyTop
+
+        block bodyBottom

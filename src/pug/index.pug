@@ -1,0 +1,13 @@
+extends __basis
+
+block append vars
+	- var pageName = "Index"
+
+block append headBottom
+	link(href=".css/index.css" rel="stylesheet")
+
+block append bodyBottom
+	script(src="./js/index.js")
+
+block append bodyTop
+	h1 #{pageName} | #{projectName} | #{packageName}
