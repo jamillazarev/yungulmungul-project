@@ -85,7 +85,7 @@ gulp.task "coffee", ->
     gulp.src ["./src/coffee/*.coffee", "!./src/coffee/_*.coffee", "!./src/coffee/__*.coffee"], read: true
     .pipe plumber errorHandler: onError
     .pipe dev sourcemaps.init()
-    .pipe coffee()
+    .pipe coffee({bare: true})
     .pipe dev sourcemaps.write()
     .pipe prod uglify()
     .pipe gulp.dest "./dist/js"
