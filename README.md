@@ -1,34 +1,36 @@
-<h1>yungulmungul-project</h1>
+# yungulmungul-project
 
-<p>Frontend project basis. Pug, CoffeScript, Stylus & JSDoc</p>
+Frontend project basis. Pug, CoffeScript, Stylus & JSDoc</p>
 
-<h2>Structure</h2>
+## Structure
+
 <pre>
 /src<br>
-../coffee<br>
-../styl<br>
-../pug
+ ../coffee<br>
+ ../styl<br>
+ ../pug
 </pre>
 <pre>
 /dist<br>
-../img<br>
-../js<br>
-../css<br>
+ ../img<br>
+ ../js<br>
+ ../css<br>
 *.html
 </pre>
 
-<h2>CLI</h2>
-<p style="color: #ccc">* you need installed node & npm</p>
+## CLI
+> you need installed node, npm & gulp globally
 
-<pre>
-    npm install
-</pre>
-<pre>
-    "gulp" – development
-</pre>
-<pre>
-    "gulp --env production" – production
-</pre>
-<pre>
-    "gulp doc" – JSDoc
-</pre>
+### for developmemnt
+```
+gulp
+```
+### for production
+```
+gulp --env production"
+```
+
+### JSDoc
+```
+gulp doc
+```
