@@ -1,6 +1,6 @@
 # yungulmungul-project
 
-Frontend project basis. Pug, CoffeScript, Stylus & JSDoc</p>
+Simple frontend project basis using: Pug, CoffeScript, Stylus & JSDoc
 
 ## Structure
 
